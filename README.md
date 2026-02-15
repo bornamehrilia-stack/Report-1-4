@@ -43,7 +43,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);
 
   // بررسی شرط: اگر دکمه فشرده شود (HIGH)
-  if(buttonState == LOW){
+  if(buttonState == HIGH){
     digitalWrite(ledPin, HIGH); // روشن کردن LED
   }
   else{
